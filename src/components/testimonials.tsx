@@ -19,28 +19,28 @@ import { Heading, Subheading } from './text'
 
 const testimonials = [
   {
-    img: '/testimonials/tina-yards.jpg',
+    img: '/screenshots/scanner.jpg',
     name: 'Tina Yards',
     title: 'VP of Sales, Protocol',
     quote:
       'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
   },
   {
-    img: '/testimonials/conor-neville.jpg',
+    img: '/screenshots/ipad2.jpg',
     name: 'Conor Neville',
     title: 'Head of Customer Success, TaxPal',
     quote:
       'Radiant made undercutting all of our competitors an absolute breeze.',
   },
   {
-    img: '/testimonials/amy-chase.jpg',
+    img: '/screenshots/reader.jpg',
     name: 'Amy Chase',
     title: 'Head of GTM, Pocket',
     quote:
       'We closed a deal in literally a few minutes because we knew their exact budget.',
   },
   {
-    img: '/testimonials/veronica-winton.jpg',
+    img: '/screenshots/rfid.jpg',
     name: 'Veronica Winton',
     title: 'CSO, Planeteria',
     quote:
