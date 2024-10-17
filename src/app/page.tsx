@@ -1,5 +1,4 @@
 import { BentoCard } from '@/components/bento-card'
-import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
@@ -42,9 +41,9 @@ function Hero() {
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             {/* <Button href="#">Get started</Button> */}
-            <Button variant="secondary" href="/pricing">
+            {/* <Button variant="secondary" href="/pricing">
               Наши технические решения
-            </Button>
+            </Button> */}
           </div>
         </div>
       </Container>
@@ -73,12 +72,12 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      {/* <Subheading>Sales</Subheading> */}
+      <Subheading>последовательность действий</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
         Бизнес-процесс учета и инвентаризации.
       </Heading>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-1">
         {/* <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
@@ -220,7 +219,7 @@ export default function Home() {
           <FeatureSection />
           <BentoSection />
         </div>
-        <DarkBentoSection />
+        {/* <DarkBentoSection /> */}
       </main>
       <Testimonials />
       <Footer />

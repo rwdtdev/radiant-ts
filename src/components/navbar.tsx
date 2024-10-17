@@ -21,7 +21,7 @@ const links = [
 function DesktopNav() {
   return (
     <nav className="relative hidden lg:flex">
-      {links.map(({ href, label }) => (
+      {/* {links.map(({ href, label }) => (
         <PlusGridItem key={href} className="relative flex">
           <Link
             href={href}
@@ -30,7 +30,7 @@ function DesktopNav() {
             {label}
           </Link>
         </PlusGridItem>
-      ))}
+      ))} */}
     </nav>
   )
 }
