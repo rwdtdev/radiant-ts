@@ -2,13 +2,12 @@ import { PlusGrid, PlusGridItem, PlusGridRow } from '@/components/plus-grid'
 import { Container } from './container'
 import { Gradient } from './gradient'
 import { Link } from './link'
-import { Subheading } from './text'
 
 function CallToAction() {
   return (
     <div className="relative pb-16 pt-20 text-center sm:py-24">
       <hgroup>
-        <Subheading>Get started</Subheading>
+        {/* <Subheading>Get started</Subheading> */}
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
           Готовы к инновациям?
           <br />

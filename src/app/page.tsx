@@ -54,10 +54,12 @@ function Hero() {
 function FeatureSection() {
   return (
     <div className="overflow-hidden">
-      <Container className="pb-24">
+      <Container>
         <Heading as="h2" className="max-w-3xl">
           Контроль перемещения ТМЦ с использованием системы распознаванием лиц.
         </Heading>
+      </Container>
+      <Container className="overflow-x-scroll pb-24 sm:overflow-hidden">
         <Screenshot
           width={1216}
           height={768}
