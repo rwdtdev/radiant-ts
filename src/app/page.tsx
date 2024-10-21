@@ -11,8 +11,7 @@ import { Heading, Subheading } from '@/components/text'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+  description: 'БРОКСЕТ поможет навести порядок на вашем складе.',
 }
 
 function Hero() {
@@ -56,7 +55,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container>
         <Heading as="h2" className="max-w-3xl">
-          Контроль перемещения ТМЦ с использованием системы распознаванием лиц.
+          Контроль перемещения ТМЦ с использованием системы распознавания лиц.
         </Heading>
       </Container>
       <Container className="overflow-x-scroll pb-24 sm:overflow-hidden">
