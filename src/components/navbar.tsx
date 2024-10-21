@@ -38,7 +38,7 @@ function DesktopNav() {
 function MobileNavButton() {
   return (
     <DisclosureButton
-      className="flex size-12 items-center justify-center self-center rounded-lg data-[hover]:bg-black/5 lg:hidden"
+      className="hidden size-12 items-center justify-center self-center rounded-lg data-[hover]:bg-black/5 lg:hidden"
       aria-label="Open main menu"
     >
       <Bars2Icon className="size-6" />
@@ -48,7 +48,7 @@ function MobileNavButton() {
 
 function MobileNav() {
   return (
-    <DisclosurePanel className="lg:hidden">
+    <DisclosurePanel className="hidden">
       <div className="flex flex-col gap-6 py-4">
         {links.map(({ href, label }, linkIndex) => (
           <motion.div

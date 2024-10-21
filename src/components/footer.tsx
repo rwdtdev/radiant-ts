@@ -146,7 +146,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950">
-      &copy; {new Date().getFullYear()} АО БРОКСЕТ.
+      &copy; {new Date().getFullYear()} АО&nbsp;БРОКСЕТ.
     </div>
   )
 }
@@ -178,7 +178,7 @@ export function Footer() {
                 </PlusGridItem>
               </div>
               <div className="flex">
-                <PlusGridItem className="flex items-center gap-8 py-3">
+                <PlusGridItem className="flex items-center gap-8 py-3 text-sm/6">
                   {/* <SocialLinks /> */}
                   {/* <Logo className="h-9" /> */}
                   119034, город Москва, Лопухинский пер, д. 3 стр. 1
