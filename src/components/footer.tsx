@@ -1,31 +1,28 @@
 import { PlusGrid, PlusGridItem, PlusGridRow } from '@/components/plus-grid'
-import { Button } from './button'
 import { Container } from './container'
 import { Gradient } from './gradient'
 import { Link } from './link'
-import { Logo } from './logo'
-import { Subheading } from './text'
 
 function CallToAction() {
   return (
     <div className="relative pb-16 pt-20 text-center sm:py-24">
       <hgroup>
-        <Subheading>Get started</Subheading>
+        {/* <Subheading>Get started</Subheading> */}
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to dive in?
+          Готовы к инновациям?
           <br />
-          Start your free trial today.
+          Тогда мы идем к вам!
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
+        Повышайте эффективность производственных процессов инвестируя в системы
+        учета ТМЦ и инвентаризации.
       </p>
-      <div className="mt-6">
+      {/* <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">
           Get started
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }
@@ -148,7 +145,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950">
-      &copy; {new Date().getFullYear()} Radiant Inc.
+      &copy; {new Date().getFullYear()} АО&nbsp;БРОКСЕТ.
     </div>
   )
 }
@@ -161,7 +158,7 @@ export function Footer() {
         <Container>
           <CallToAction />
           <PlusGrid className="pb-16">
-            <PlusGridRow>
+            {/* <PlusGridRow>
               <div className="grid grid-cols-2 gap-y-10 pb-6 lg:grid-cols-6 lg:gap-8">
                 <div className="col-span-2 flex">
                   <PlusGridItem className="pt-6 lg:pb-6">
@@ -172,7 +169,7 @@ export function Footer() {
                   <Sitemap />
                 </div>
               </div>
-            </PlusGridRow>
+            </PlusGridRow> */}
             <PlusGridRow className="flex justify-between">
               <div>
                 <PlusGridItem className="py-3">
@@ -180,8 +177,10 @@ export function Footer() {
                 </PlusGridItem>
               </div>
               <div className="flex">
-                <PlusGridItem className="flex items-center gap-8 py-3">
-                  <SocialLinks />
+                <PlusGridItem className="flex items-center gap-8 py-3 text-sm/6">
+                  {/* <SocialLinks /> */}
+                  {/* <Logo className="h-9" /> */}
+                  119034, город Москва, Лопухинский пер, д. 3 стр. 1
                 </PlusGridItem>
               </div>
             </PlusGridRow>

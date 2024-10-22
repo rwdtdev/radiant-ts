@@ -19,46 +19,45 @@ import { Heading, Subheading } from './text'
 
 const testimonials = [
   {
-    img: '/testimonials/tina-yards.jpg',
-    name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    img: '/screenshots/scanner.jpg',
+    name: 'Считыватель RFID-меток',
+    title: 'Мобильный считыватель',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
+      'дальность работы – до 15 м, скорость считывания – до 1300 тегов / сек  – GPS, NFC, сканеры QR / штрих- кодов.',
   },
   {
-    img: '/testimonials/conor-neville.jpg',
-    name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
+    img: '/screenshots/ipad2.jpg',
+    name: 'Считыватель RFID-меток',
+    title: 'Форм-фактор планшет',
     quote:
-      'Radiant made undercutting all of our competitors an absolute breeze.',
+      'форм-фактор планшета, позволяет получать больше информации об отсканированной ТМЦ.',
   },
   {
-    img: '/testimonials/amy-chase.jpg',
-    name: 'Amy Chase',
-    title: 'Head of GTM, Pocket',
+    img: '/screenshots/reader.jpg',
+    name: 'Считыватель RFID-меток',
+    title: 'Форм-фактор стационарный считыватель',
     quote:
-      'We closed a deal in literally a few minutes because we knew their exact budget.',
+      'стационарный считыватель позволяет полностью автоматизировать контроль.',
   },
   {
-    img: '/testimonials/veronica-winton.jpg',
-    name: 'Veronica Winton',
-    title: 'CSO, Planeteria',
-    quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months.',
+    img: '/screenshots/rfid.jpg',
+    name: 'RFID-метка',
+    title: 'S-TAG',
+    quote: 'Пример внешнего вида RFID-метки.',
   },
-  {
-    img: '/testimonials/dillon-lenora.jpg',
-    name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
-  },
-  {
-    img: '/testimonials/harriet-arron.jpg',
-    name: 'Harriet Arron',
-    title: 'Account Manager, Commit',
-    quote:
-      'I’ve smashed all my targets without having to speak to a lead in months.',
-  },
+  // {
+  //   img: '/testimonials/dillon-lenora.jpg',
+  //   name: 'Dillon Lenora',
+  //   title: 'VP of Sales, Detax',
+  //   quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+  // },
+  // {
+  //   img: '/testimonials/harriet-arron.jpg',
+  //   name: 'Harriet Arron',
+  //   title: 'Account Manager, Commit',
+  //   quote:
+  //     'I’ve smashed all my targets without having to speak to a lead in months.',
+  // },
 ]
 
 function TestimonialCard({
@@ -192,9 +191,9 @@ export function Testimonials() {
     <div className="overflow-hidden py-32">
       <Container>
         <div ref={setReferenceWindowRef}>
-          <Subheading>What everyone is saying</Subheading>
+          <Subheading>Из чего все состоит</Subheading>
           <Heading as="h3" className="mt-2">
-            Trusted by professionals.
+            Компоненты наших систем.
           </Heading>
         </div>
       </Container>
@@ -224,7 +223,7 @@ export function Testimonials() {
       </div>
       <Container className="mt-16">
         <div className="flex justify-between">
-          <CallToAction />
+          {/* <CallToAction /> */}
           <div className="hidden sm:flex sm:gap-2">
             {testimonials.map(({ name }, testimonialIndex) => (
               <Headless.Button
